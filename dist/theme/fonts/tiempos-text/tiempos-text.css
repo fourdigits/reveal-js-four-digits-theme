@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('./TiemposTextWeb-Regular.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('./TiemposTextWeb-RegularItalic.woff') format('woff');
+
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('./TiemposTextWeb-Semibold.woff') format('woff');
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tiempos Text';
+    src: url('./TiemposTextWeb-SemiboldItalic.woff') format('woff');
+
+    font-weight: 600;
+    font-style: italic;
+}

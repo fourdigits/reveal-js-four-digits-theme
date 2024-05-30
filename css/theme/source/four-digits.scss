@@ -1,0 +1,54 @@
+/**
+ * Four Digits theme for reveal.js. Based on the 'black' theme.
+ *
+ * By https://fourdigits.nl
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(./fonts/tiempos-text/tiempos-text.css);
+@import url(./fonts/graphik/graphik.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #191919;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFontSize: 42px;
+$mainFont: 'Tiempos Text';
+$headingFont: 'Graphik Web';
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: rgba( $linkColor, 0.75 );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+body:after {
+  content: url(./images/FoDig_rgb_onblack_100.png);
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+// Change text colors against light slide backgrounds
+@include light-bg-text-color(#222);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
