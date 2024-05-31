@@ -1,3 +1,19 @@
+## Four Digits branch
+
+Branch of reveal.js with a custom four-digits theme.
+
+### Upgrading
+
+To get new features from reveal.js:
+
+```bash
+git remote add upstream https://github.com/hakimel/reveal.js.git
+git fetch --all
+git rebase upstream/master
+```
+
+## The original README.md
+
 <p align="center">
   <a href="https://revealjs.com">
   <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
